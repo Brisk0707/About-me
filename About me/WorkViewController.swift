@@ -9,7 +9,26 @@
 import UIKit
 
 class WorkViewController: UIViewController {
-
+    
+    let scareDogPrice = 20
+    let killTheMousePrice = 50
+    let teaseTheDogPrice = 10
+    let killTheButterflyPrice = 10
+    
+    @IBOutlet weak var totalSumLabel: UILabel!
+    @IBAction func scareDogSwitch(_ sender: UISwitch) {
+        totalSumLabel.text = String(scareDogPrice)
+    }
+    
+    @IBAction func killTheMouseSwitch(_ sender: UISwitch) {
+    }
+    
+    @IBAction func teaseDogSwitch(_ sender: UISwitch) {
+    }
+    
+    @IBAction func killTheButterflySwitch(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

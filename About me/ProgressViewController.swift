@@ -10,21 +10,19 @@ import UIKit
 
 class ProgressViewController: UIViewController {
 
+    @IBOutlet weak var humansDisabledLabel: UILabel!
+    @IBOutlet weak var butterfliesKilledLabel: UILabel!
+    @IBOutlet weak var scaredHumansLabel: UILabel!
+    @IBOutlet weak var mousesKilledLabel: UILabel!
+    @IBOutlet weak var teasedDogsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        humansDisabledLabel.text = String(Int.random(in: 10...100))
+        butterfliesKilledLabel.text = String(Int.random(in: 100...1000))
+        scaredHumansLabel.text = String(Int.random(in: 10...100))
+        mousesKilledLabel.text = String(Int.random(in: 1...20))
+        teasedDogsLabel.text = String(Int.random(in: 1...100))
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
