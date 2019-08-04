@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HRV-8X-gIm">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,28 +15,28 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AboutMeViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hello" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njr-PV-Sqj">
-                                <rect key="frame" x="55" y="64" width="304" height="266"/>
+                                <rect key="frame" x="55" y="40" width="265" height="95"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-Vc-ZXp">
-                                <rect key="frame" x="20" y="350" width="374" height="396.5"/>
+                                <rect key="frame" x="20" y="155" width="335" height="396.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwS-GR-I3C">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="45.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="45.5"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Меня зовут Кокос." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvL-GY-YIv">
-                                        <rect key="frame" x="0.0" y="70.5" width="374" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="70.5" width="335" height="0.0"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="В этом приложении ты сможешь узнать кое-какие факты обо мне и заказать мои услуги." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFw-HL-UdX">
-                                        <rect key="frame" x="0.0" y="95.5" width="374" height="118"/>
+                                        <rect key="frame" x="0.0" y="95.5" width="335" height="118"/>
                                         <color key="backgroundColor" red="0.43925300240516663" green="0.93900513648986816" blue="0.81175386905670166" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="118" id="NgS-tr-cIe"/>
@@ -46,7 +46,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glu-To-u7Y">
-                                        <rect key="frame" x="0.0" y="238.5" width="374" height="158"/>
+                                        <rect key="frame" x="0.0" y="238.5" width="335" height="158"/>
                                         <color key="backgroundColor" red="0.43925300240516663" green="0.93900513648986816" blue="0.81175386905670166" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="158" id="LiT-Nu-X6l"/>
@@ -79,7 +79,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="О мне" id="PwO-qF-JZc"/>
+                    <tabBarItem key="tabBarItem" title="О мне" image="about-me-pic" id="PwO-qF-JZc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,14 +90,14 @@
             <objects>
                 <viewController id="OQQ-7J-rXw" customClass="HobbyViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ORg-TV-2uT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pU2-T4-9ch">
-                                <rect key="frame" x="0.0" y="64" width="414" height="812"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="607"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="😺 И загорать 😺" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jJc-bl-nms">
-                                        <rect key="frame" x="20" y="419" width="374" height="35"/>
+                                        <rect key="frame" x="0.5" y="419" width="374" height="35"/>
                                         <color key="backgroundColor" red="0.83154761791229248" green="0.94645839929580688" blue="0.85489201545715332" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="D1s-gn-Iul"/>
@@ -107,14 +107,14 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coconut" translatesAutoresizingMaskIntoConstraints="NO" id="hA0-WZ-HDn">
-                                        <rect key="frame" x="18" y="143" width="378" height="260"/>
+                                        <rect key="frame" x="-1.5" y="143" width="378" height="260"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="378" id="nBw-vN-Lxe"/>
                                             <constraint firstAttribute="height" constant="260" id="sao-2f-9HP"/>
                                         </constraints>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3N-Ym-8AM">
-                                        <rect key="frame" x="62" y="20.5" width="290" height="111.5"/>
+                                        <rect key="frame" x="42.5" y="20.5" width="290" height="111.5"/>
                                         <color key="backgroundColor" red="0.83154761791229248" green="0.94645839929580688" blue="0.85489201545715332" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="290" id="Dxn-4F-Piy"/>
@@ -125,7 +125,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coconut-on-sun" translatesAutoresizingMaskIntoConstraints="NO" id="OwO-qJ-5jY">
-                                        <rect key="frame" x="34" y="462" width="346" height="260"/>
+                                        <rect key="frame" x="14.5" y="462" width="346" height="260"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="260" id="5VM-lX-UnO"/>
                                             <constraint firstAttribute="width" constant="346" id="Na1-fz-s0Q"/>
@@ -155,7 +155,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gYX-Gg-fhZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Хобби" id="W3D-Uc-YrK"/>
+                    <tabBarItem key="tabBarItem" title="Хобби" image="hobby-pic" id="W3D-Uc-YrK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O5h-a8-Q2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,7 +170,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdV-Zj-rmk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="773"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="831"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coconut-fighter" translatesAutoresizingMaskIntoConstraints="NO" id="1aw-Vl-gkj">
                                         <rect key="frame" x="40.5" y="93" width="294" height="293"/>
@@ -333,7 +333,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="y66-EE-ILe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Достижения" id="O0h-tX-uNI"/>
+                    <tabBarItem key="tabBarItem" title="Достижения" image="results-pic" id="O0h-tX-uNI"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
                         <outlet property="butterfliesKilledLabel" destination="V4h-eV-eW0" id="YwR-sg-X3T"/>
@@ -356,7 +356,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R7D-60-ZmK">
-                                <rect key="frame" x="0.0" y="64" width="414" height="773"/>
+                                <rect key="frame" x="0.0" y="40" width="414" height="831"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="748" text="Что нужно сделать?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozh-4I-vH5">
                                         <rect key="frame" x="64" y="20" width="298" height="33"/>
@@ -424,20 +424,8 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeP-QI-3Ye">
-                                        <rect key="frame" x="113" y="448" width="188" height="46"/>
-                                        <color key="backgroundColor" red="0.63564127680000004" green="0.86527913810000001" blue="0.68232935669999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="46" id="aAO-Vl-ByA"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
-                                        <state key="normal" title="Рассчитать сумму заказа"/>
-                                        <connections>
-                                            <action selector="countSumButton:" destination="nTB-wG-qx7" eventType="touchUpInside" id="HtR-aS-Lgk"/>
-                                        </connections>
-                                    </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Tep-Hr-92h">
-                                        <rect key="frame" x="157" y="535" width="101.5" height="55"/>
+                                        <rect key="frame" x="157" y="535" width="101.5" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Сумма заказа:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzj-fw-U9p">
                                                 <rect key="frame" x="0.0" y="0.0" width="101.5" height="18.5"/>
@@ -446,13 +434,26 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRS-Yh-QBb">
-                                                <rect key="frame" x="45.5" y="36.5" width="10" height="18.5"/>
-                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <rect key="frame" x="43.5" y="36.5" width="14.5" height="27.5"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeP-QI-3Ye">
+                                        <rect key="frame" x="94" y="448" width="226" height="46"/>
+                                        <color key="backgroundColor" red="0.63564127680000004" green="0.86527913810000001" blue="0.68232935669999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="5ol-X6-gP9"/>
+                                            <constraint firstAttribute="height" constant="46" id="aAO-Vl-ByA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <state key="normal" title="Рассчитать сумму заказа"/>
+                                        <connections>
+                                            <action selector="countSumButton:" destination="nTB-wG-qx7" eventType="touchUpInside" id="HtR-aS-Lgk"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="EeP-QI-3Ye" firstAttribute="centerX" secondItem="R7D-60-ZmK" secondAttribute="centerX" id="23D-wh-lpM"/>
@@ -479,7 +480,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zRx-1K-48C"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Работа" id="VOS-Ow-j4w" customClass="Work"/>
+                    <tabBarItem key="tabBarItem" title="Работа" image="work-pic" id="VOS-Ow-j4w" customClass="Work"/>
                     <size key="freeformSize" width="414" height="900"/>
                     <connections>
                         <outlet property="disableHumanSwitch" destination="w7U-eV-k4T" id="UrX-xL-70A"/>
@@ -492,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5dI-LL-Udi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1258" y="1292"/>
+            <point key="canvasLocation" x="1376" y="1293"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jAE-rn-KqL">
@@ -517,9 +518,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="about-me-pic" width="35" height="35"/>
         <image name="coconut" width="640" height="469"/>
         <image name="coconut-fighter" width="632" height="580"/>
         <image name="coconut-on-sun" width="2061" height="1494"/>
         <image name="hello" width="640" height="486"/>
+        <image name="hobby-pic" width="35" height="35"/>
+        <image name="results-pic" width="35" height="35"/>
+        <image name="work-pic" width="35" height="35"/>
     </resources>
 </document>
